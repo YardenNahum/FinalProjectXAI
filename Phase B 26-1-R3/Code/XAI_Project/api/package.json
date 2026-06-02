@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Express serverless functions for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "firebase-admin": "^12.0.0",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.1"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
