@@ -6,7 +6,11 @@ This project is a web-based system for presenting AI predictions together with X
 
 ### Option 1: Start Automatically
 
-Double-click the following file: start_app.bat
+Double-click the following file:
+
+```bash
+start_app.bat
+```
 
 This option automatically installs the required dependencies and starts both the backend and the frontend.
 
@@ -16,24 +20,29 @@ This option automatically installs the required dependencies and starts both the
 
 Open a terminal and run:
 
+```bash
 cd XAI_Project
 cd api
 npm install
 node index.js
+```
 
 ### Step 2: Start the Frontend
 
 Open another terminal and run:
 
+```bash
 cd XAI_Project
 cd Frontend
 npm install
 npm run dev
+```
 
 After the frontend starts, open the local URL shown in the terminal:
 
+```bash
 http://localhost:5173
-
+```
 
 ## Notes
 
